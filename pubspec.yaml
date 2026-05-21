@@ -1,0 +1,53 @@
+name: kittentts_flutter
+description: On-device KittenTTS speech synthesis for Flutter, powered by flutter_onnxruntime.
+version: 0.1.0
+homepage: https://github.com/KittenML/KittenTTS-flutter
+repository: https://github.com/KittenML/KittenTTS-flutter
+issue_tracker: https://github.com/KittenML/KittenTTS-flutter/issues
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+  flutter: ">=3.22.0"
+
+dependencies:
+  archive: ^4.0.7
+  ffi: ^2.1.4
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+  flutter_onnxruntime: ^1.7.0
+  http: ^1.2.2
+  path: ^1.9.0
+  path_provider: ^2.1.5
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+
+topics:
+  - tts
+  - onnx
+  - on-device
+  - speech
+
+flutter:
+  assets:
+    - web/kittentts_cephonemizer.js
+  plugin:
+    platforms:
+      android:
+        ffiPlugin: true
+        package: com.kittenml.kittentts_flutter
+      ios:
+        ffiPlugin: true
+      linux:
+        ffiPlugin: true
+      macos:
+        ffiPlugin: true
+      windows:
+        ffiPlugin: true
+      web:
+        pluginClass: KittenttsFlutterWeb
+        fileName: kittentts_flutter_web.dart
