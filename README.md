@@ -1,7 +1,7 @@
 # KittenTTS Flutter
 
 <p align="center">
-  <img width="1500" height="500" alt="KittenTTS Flutter" src="assets/banner.png" />
+  <img width="1200" alt="KittenTTS Flutter" src="assets/banner.webp" />
 </p>
 
 <p align="center">
