@@ -1,4 +1,4 @@
-name: kittentts_flutter
+name: kittentts
 description: On-device KittenTTS speech synthesis for Flutter, powered by flutter_onnxruntime.
 version: 0.1.0
 homepage: https://github.com/KittenML/KittenTTS-flutter
