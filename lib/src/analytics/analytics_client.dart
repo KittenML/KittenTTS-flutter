@@ -188,7 +188,7 @@ Future<void> postJsonRequest(
   }
 }
 
-const _anonymousIdStorageKey = 'kittentts_flutter_analytics_id';
+const _anonymousIdStorageKey = 'kittentts_analytics_id';
 
 String _enumErrorCode(String value) {
   final spaced = value

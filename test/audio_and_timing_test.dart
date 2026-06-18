@@ -1,9 +1,9 @@
 import 'dart:typed_data';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:kittentts_flutter/kittentts_flutter.dart';
-import 'package:kittentts_flutter/src/engine/sentence_splitter.dart';
-import 'package:kittentts_flutter/src/engine/timestamp_joiner.dart';
+import 'package:kittentts/kittentts.dart';
+import 'package:kittentts/src/engine/sentence_splitter.dart';
+import 'package:kittentts/src/engine/timestamp_joiner.dart';
 
 void main() {
   test('wavData returns a RIFF WAVE file', () {

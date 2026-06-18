@@ -13,7 +13,7 @@ external JSObject? get _document;
 
 const _runtimeFactoryName = 'createKittenTtsCePhonemizerModule';
 const _runtimeScriptPath =
-    'assets/packages/kittentts_flutter/web/kittentts_cephonemizer.js';
+    'assets/packages/kittentts/web/kittentts_cephonemizer.js';
 const _virtualRulesPath = '/cephonemizer/en_rules';
 const _virtualListPath = '/cephonemizer/en_list';
 

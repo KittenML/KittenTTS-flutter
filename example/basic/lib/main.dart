@@ -3,7 +3,7 @@ import 'dart:typed_data';
 
 import 'package:audioplayers/audioplayers.dart' as audio;
 import 'package:flutter/material.dart';
-import 'package:kittentts_flutter/kittentts_flutter.dart';
+import 'package:kittentts/kittentts.dart';
 
 void main() {
   runApp(const KittenTTSExampleApp());

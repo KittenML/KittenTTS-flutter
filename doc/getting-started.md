@@ -19,7 +19,7 @@ The iOS and macOS minimums follow `flutter_onnxruntime`.
 ## Install
 
 ```bash
-flutter pub add kittentts_flutter
+flutter pub add kittentts
 ```
 
 Do not install or register `flutter_onnxruntime` manually unless your app needs
@@ -52,7 +52,7 @@ React Native web package.
 Use `generate()` when you want audio data back without playing it immediately.
 
 ```dart
-import 'package:kittentts_flutter/kittentts_flutter.dart';
+import 'package:kittentts/kittentts.dart';
 
 final tts = await KittenTTS.create(
   onProgress: (progress, info) {

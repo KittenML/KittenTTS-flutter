@@ -1,4 +1,4 @@
-group 'com.kittenml.kittentts_flutter'
+group 'com.kittenml.kittentts'
 version '0.1.0'
 
 buildscript {
@@ -19,7 +19,7 @@ apply plugin: 'com.android.library'
 
 android {
     if (project.android.hasProperty("namespace")) {
-        namespace 'com.kittenml.kittentts_flutter'
+        namespace 'com.kittenml.kittentts'
     }
 
     compileSdk 35

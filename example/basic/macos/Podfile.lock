@@ -3,7 +3,7 @@ PODS:
     - FlutterMacOS
     - onnxruntime-objc (= 1.22.0)
   - FlutterMacOS (1.0.0)
-  - kittentts_flutter (0.1.0):
+  - kittentts (0.1.0):
     - FlutterMacOS
   - onnxruntime-c (1.22.0)
   - onnxruntime-objc (1.22.0):
@@ -14,7 +14,7 @@ PODS:
 DEPENDENCIES:
   - flutter_onnxruntime (from `Flutter/ephemeral/.symlinks/plugins/flutter_onnxruntime/macos`)
   - FlutterMacOS (from `Flutter/ephemeral`)
-  - kittentts_flutter (from `Flutter/ephemeral/.symlinks/plugins/kittentts_flutter/macos`)
+  - kittentts (from `Flutter/ephemeral/.symlinks/plugins/kittentts/macos`)
 
 SPEC REPOS:
   trunk:
@@ -26,13 +26,13 @@ EXTERNAL SOURCES:
     :path: Flutter/ephemeral/.symlinks/plugins/flutter_onnxruntime/macos
   FlutterMacOS:
     :path: Flutter/ephemeral
-  kittentts_flutter:
-    :path: Flutter/ephemeral/.symlinks/plugins/kittentts_flutter/macos
+  kittentts:
+    :path: Flutter/ephemeral/.symlinks/plugins/kittentts/macos
 
 SPEC CHECKSUMS:
   flutter_onnxruntime: 07103445f6b566bf12df4ceae61ef7b901d3e6ec
   FlutterMacOS: d0db08ddef1a9af05a5ec4b724367152bb0500b1
-  kittentts_flutter: ac25f5232f5fe773aac1ddf84ff9f6103c9ed614
+  kittentts: ac25f5232f5fe773aac1ddf84ff9f6103c9ed614
   onnxruntime-c: 7f778680e96145956c0a31945f260321eed2611a
   onnxruntime-objc: 83d28b87525bd971259a66e153ea32b5d023de19
 

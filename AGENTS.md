@@ -1,6 +1,6 @@
 # AGENTS.md
 
-Guidance for coding agents working on `kittentts_flutter`.
+Guidance for coding agents working on `kittentts`.
 
 ## Project Overview
 
@@ -19,7 +19,7 @@ Main flow:
 
 ## Important Paths
 
-- `lib/kittentts_flutter.dart`: public exports.
+- `lib/kittentts.dart`: public exports.
 - `lib/src/kitten_tts.dart`: main SDK class and lifecycle.
 - `lib/src/kitten_tts_config.dart`: user config and defaults.
 - `lib/src/kitten_tts_error.dart`: SDK error codes and helpers.

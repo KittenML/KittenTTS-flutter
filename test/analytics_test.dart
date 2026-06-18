@@ -2,8 +2,8 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:kittentts_flutter/src/analytics/analytics_client.dart';
-import 'package:kittentts_flutter/src/kitten_tts_error.dart';
+import 'package:kittentts/src/analytics/analytics_client.dart';
+import 'package:kittentts/src/kitten_tts_error.dart';
 
 void main() {
   test('analytics disabled sends no request', () async {
@@ -29,7 +29,7 @@ void main() {
   test('success event contains required analytics fields', () async {
     final calls = <List<Object?>>[];
     final anonymousIdPath =
-        '${Directory.systemTemp.createTempSync('kittentts_flutter_').path}/analytics_id';
+        '${Directory.systemTemp.createTempSync('kittentts_').path}/analytics_id';
     final client = AnalyticsClient(
       selectedModel: 'kitten-tts-nano',
       modelVersion: '0.8',
@@ -167,7 +167,7 @@ void main() {
   });
 
   test('anonymous id is stable across analytics clients', () async {
-    final dir = Directory.systemTemp.createTempSync('kittentts_flutter_');
+    final dir = Directory.systemTemp.createTempSync('kittentts_');
     final anonymousIdPath = '${dir.path}/analytics_id';
     final calls = <AnalyticsPayload>[];
 
