@@ -140,7 +140,7 @@ void main() {
     final postFuture = postJsonRequest(
         endpoint,
         {
-          'sdk_version': '0.1.0',
+          'sdk_version': '0.1.1',
           'selected_voice': 'bella',
         },
         const Duration(seconds: 1));
@@ -158,11 +158,11 @@ void main() {
     expect(request.headers.value(HttpHeaders.acceptHeader), 'application/json');
     expect(
       request.headers.value(HttpHeaders.userAgentHeader),
-      'KittenTTS-Flutter/0.1.0',
+      'KittenTTS-Flutter/0.1.1',
     );
     expect(
       jsonDecode(body),
-      {'sdk_version': '0.1.0', 'selected_voice': 'bella'},
+      {'sdk_version': '0.1.1', 'selected_voice': 'bella'},
     );
   });
 

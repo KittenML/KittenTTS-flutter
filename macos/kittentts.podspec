@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'kittentts'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'On-device KittenTTS speech synthesis for Flutter.'
   s.description      = 'Flutter SDK for KittenTTS with native CE phonemizer support.'
   s.homepage         = 'https://github.com/KittenML/KittenTTS-flutter'

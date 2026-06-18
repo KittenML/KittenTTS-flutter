@@ -6,7 +6,7 @@ PODS:
   - flutter_onnxruntime (0.0.1):
     - Flutter
     - onnxruntime-objc (= 1.22.0)
-  - kittentts (0.1.0):
+  - kittentts (0.1.1):
     - Flutter
   - onnxruntime-c (1.22.0)
   - onnxruntime-objc (1.22.0):

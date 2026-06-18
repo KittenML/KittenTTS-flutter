@@ -11,7 +11,7 @@ import 'analytics_platform.dart' as platform;
 
 const analyticsEndpoint = 'https://kittenmlanalytics.com/v1/track';
 const analyticsSdkType = 'flutter';
-const analyticsSdkVersion = '0.1.0';
+const analyticsSdkVersion = '0.1.1';
 const defaultAnalyticsTimeout = Duration(seconds: 2);
 
 typedef AnalyticsGeneration = String;
