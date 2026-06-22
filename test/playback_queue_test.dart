@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:typed_data';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:kittentts_flutter/kittentts_flutter.dart';
+import 'package:kittentts/kittentts.dart';
 
 void main() {
   test('PlaybackQueue plays generated results sequentially', () async {

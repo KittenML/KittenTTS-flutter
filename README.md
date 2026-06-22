@@ -70,7 +70,7 @@ The SDK sends anonymous generation analytics; see [Getting started](doc/getting-
 Install:
 
 ```bash
-flutter pub add kittentts_flutter
+flutter pub add kittentts
 ```
 
 ---
@@ -80,13 +80,13 @@ flutter pub add kittentts_flutter
 Install the SDK:
 
 ```bash
-flutter pub add kittentts_flutter
+flutter pub add kittentts
 ```
 
 Generate audio in memory:
 
 ```dart
-import 'package:kittentts_flutter/kittentts_flutter.dart';
+import 'package:kittentts/kittentts.dart';
 
 final tts = await KittenTTS.create(
   onProgress: (progress, info) {

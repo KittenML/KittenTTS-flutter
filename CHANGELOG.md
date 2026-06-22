@@ -1,3 +1,7 @@
+## 0.1.1
+
+- Rename package references from `kittentts_flutter` to `kittentts`.
+
 ## 0.1.0
 
 - Initial developer-preview Flutter SDK for KittenTTS.

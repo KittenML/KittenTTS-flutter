@@ -1,6 +1,6 @@
 name: kittentts
 description: On-device KittenTTS speech synthesis for Flutter, powered by flutter_onnxruntime.
-version: 0.1.0
+version: 0.1.1
 homepage: https://github.com/KittenML/KittenTTS-flutter
 repository: https://github.com/KittenML/KittenTTS-flutter
 issue_tracker: https://github.com/KittenML/KittenTTS-flutter/issues
@@ -39,7 +39,7 @@ flutter:
     platforms:
       android:
         ffiPlugin: true
-        package: com.kittenml.kittentts_flutter
+        package: com.kittenml.kittentts
       ios:
         ffiPlugin: true
       linux:
@@ -49,5 +49,5 @@ flutter:
       windows:
         ffiPlugin: true
       web:
-        pluginClass: KittenttsFlutterWeb
-        fileName: kittentts_flutter_web.dart
+        pluginClass: KittenttsWeb
+        fileName: kittentts_web.dart
