@@ -19,11 +19,6 @@
   <img src="https://img.shields.io/badge/Flutter-Android%20%7C%20iOS%20%7C%20Desktop-02569B?logo=flutter&logoColor=white" alt="Flutter Android iOS Desktop">
 </p>
 
-> Developer preview. APIs may change between releases.
-
-> Playback is intentionally app-provided. Pass an `AudioPlayer` implementation
-> to `KittenTTS.create()` when you want `speak()` or `play()`.
-
 ## See It In Action
 
 <p align="center">
